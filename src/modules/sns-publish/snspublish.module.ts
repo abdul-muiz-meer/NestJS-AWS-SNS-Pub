@@ -4,7 +4,7 @@ import { SnspublishController } from './controller/snspublish.controller';
 import { SnspublishService } from './services/snspublish.service';
 
 @Module({
-  controllers: [SnspublishController],
-  providers: [SnspublishService, AwsService],
+    controllers: [SnspublishController],
+    providers: [SnspublishService,AwsService]
 })
 export class SnspublishModule {}
